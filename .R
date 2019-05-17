@@ -47,7 +47,7 @@ V(champ_finals_g)$label.cex = ifelse(g_outd > 0, .75, .5)
 
 E(champ_finals_g)$arrow.width = .5
 E(champ_finals_g)$arrow.size = .5
-E(champ_finals_g)$width = log(E(champ_finals_g)$weight) + 1
+E(champ_finals_g)$width = (E(champ_finals_g)$weight) + 1
 E(champ_finals_g)$color = "gray"
 
 plot(champ_finals_g, layout = layout_with_dh(champ_finals_g))
